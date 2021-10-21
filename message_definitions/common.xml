@@ -5745,6 +5745,13 @@
       <field type="uint8_t" name="breach_mitigation" enum="FENCE_MITIGATE">Active action to prevent fence breach</field>
     </message>
     <!-- MESSAGE IDs 180 - 229: Space for custom messages in individual projectname_messages.xml files -->
+
+    <message id="229" name="KEY_COMMAND">
+      <description>Keyboard char command.</description>
+      <field type="char" name="command"> </field>
+    </message>
+
+    <!-- MESSAGE IDs 180 - 229: Space for custom messages in individual projectname_messages.xml files -->
     <!-- 192 MAG_CAL_REPORT imported from ardupilotmega.xml -->
     <message id="192" name="MAG_CAL_REPORT">
       <description>Reports results of completed compass calibration. Sent until MAG_CAL_ACK received.</description>
